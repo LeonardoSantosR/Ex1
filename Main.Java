@@ -7,7 +7,7 @@ public class Main {
             }
         }    
         
-        Cliente.conta.depositar(500);
+        Cliente.Conta.depositar(500);
         Cliente.Conta.sacar(200);
         Cliente.Nome = "TrezentosENovetaEUmBerto";
         Cliente.CPF = "255,255,255.25";
