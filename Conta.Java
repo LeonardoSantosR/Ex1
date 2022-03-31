@@ -66,7 +66,7 @@ public class Conta {
                mes = 12;
             }
         }
-        return "----EXTRATO ULTIMO(S) " + dia + " DIA(S)----\n" + extratofinal + "Saldo atual -> R$:" + saldo;
+        return "Extrado recente é de  " + dia + " Dias:" + extratofinal + "Saldo atual -> R$:" + saldo;
     }
 
     public void transferir(Conta destino, double valor){
